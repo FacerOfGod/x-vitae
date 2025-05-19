@@ -5,8 +5,9 @@ from src.utils.file_tool import *
 
 @pytest.fixture
 def test_pdf_file(tmp_path):
-    #file_path = "src/ressources/cv.pdf"
-    file_path = "src/ressources/test_file.pdf"
+    file_path = "src/ressources/cv.pdf"
+    #file_path = "src/ressources/cv-template.pdf"
+    #file_path = "src/ressources/test_file.pdf"
 
     #create_test_pdf(file_path)
     yield file_path
